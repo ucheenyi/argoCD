@@ -76,7 +76,7 @@ kind: Deployment
 metadata:
   name: order-service
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: order-service
@@ -163,7 +163,7 @@ kind: Deployment
 metadata:
   name: product-service
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: product-service
@@ -222,7 +222,7 @@ kind: Deployment
 metadata:
   name: store-front
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: store-front
